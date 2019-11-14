@@ -1,0 +1,537 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+* {
+    text-decoration: none;
+}
+
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+}
+
+
+header .logo {
+    width: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+
+
+body {
+    background-color: white;
+}
+
+
+.wrapper {
+    width: 100%;
+}
+
+
+header nav {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+
+ul{
+    display: block;
+    margin: 0 auto;
+}
+
+
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    padding: 0 16px;
+    line-height: 100px;
+}
+
+
+header nav ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: trajan-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #3D33DB;
+    padding: 0 20px;
+}
+
+
+ul li a:hover{
+    color:lightskyblue;
+}
+
+
+footer h3 {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: trajan-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #3D33DB;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+footer .socials {
+    display: block;
+}
+
+
+footer .socials:hover {
+    color: lightskyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*INDEX*/
+
+
+.index-banner {
+    width: 1200px;
+    height: calc(100vh - 100px);
+    background-image: url("back-ground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ABOUT US*/
+
+
+.vertical-center {
+    vertical-align: middle;
+}
+
+
+.vertical-center h2 {
+    font-size: 40px;
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 50px;
+    color: #3D33DB;
+    text-align: center;
+}
+
+
+.vertical-center h1 {
+    font-size: 28px;
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 40px;
+    color: #3D33DB;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+.vertical-center h3 {
+    font-size: 28px;
+    font-family: trajan-sans-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 40px;
+    color: #3D33DB;
+    text-align: center;
+}
+
+
+.vertical-center h4 {
+    font-size: 20px;
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    color: #3D33DB;
+    text-align: center;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*HOURS*/
+
+
+div .hours{
+    float: left;
+    width: 490px;
+    height: 690px;
+}
+
+
+div .images {
+    margin: auto;
+    display: block;
+    width: 490px;
+    height: 330px;
+    padding: 10px 0;
+}
+
+
+div .hours-text{
+    float: right;
+    width: 490px;
+    height: 690px;
+}
+
+
+div .hours-text h3 {
+    font-size: 32px;
+    font-family: trajan-sans-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 40px;
+    color: #3D33DB;
+    text-align: center;
+}
+
+
+div .hours-text h4 {
+    font-size: 25px;
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    color: #3D33DB;
+    text-align: center;
+}
+
+
+div .hours-text h5 {
+    font-size: 50px;
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 60px;
+    color: #3D33DB;
+    text-align: center;
+}
+
+
+div .maps {
+    float: left;
+    width: 1000px;
+    height: 100px;
+}
+
+
+div .maps h1 {
+    font-size: 32px;
+    font-family: trajan-sans-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 40px;
+    color: #3D33DB;
+    text-align: center;
+}
+
+
+div .maps h2 {
+    font-size: 25px;
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    color: #3D33DB;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MENU*/
+
+
+div .first {
+    width: 40%;
+    height: 2900px;
+    float: left;
+}
+
+
+div .first .fir {
+    margin: auto;
+    display: block;
+    width: 275px;
+    height: 275px;
+    padding: 5px 0;
+}
+
+
+div .menu {
+    width: 60%;
+    height: 2900px;
+    float: right;
+}
+
+
+div .menu h1 {
+    font-size: 28px;
+    font-family: trajan-sans-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 40px;
+    color: #3D33DB;
+    text-align: center;
+}
+
+
+div .menu h2 {
+    font-size: 28px;
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 40px;
+    color: #3D33DB;
+    text-align: center;
+}
+
+
+div .menu h3 {
+    font-size: 20px;
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    color: #3D33DB;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DRINKS*/
+
+
+div .done h1 {
+    font-size: 30px;
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 50px;
+    color: #3D33DB;
+    text-align: center;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px 5px;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.columntwo {
+    float: left;
+    width: 33.33%;
+    padding: 50px 5px;
+}
+
+
+.rowtwo::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.columnthree {
+    float: left;
+    width: 33.33%;
+    padding: 50px 5px;
+}
+
+
+.rowtwo::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .logo {
+        display: block;
+        width: 800px;
+        padding-bottom: 30px;
+    }
+
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .img-info h2 {
+        padding: 20px 0 0;
+    }
+
+    .img-info p {
+        padding: 20px 0 0;
+    }
+
+    .beer-list {
+        padding-top: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 1000px
+    }
+
+    .img-info {
+        width: 50%;
+        float: right;
+    }
+
+    .img-info h2 {
+        padding: 20px 0 0 30px;
+    }
+
+    .img-info p {
+        padding: 20px 0 0 30px;
+    }
+
+    .beer-list {
+        padding-top: 0;
+        width: 50%;
+        float: left;
+    }
+}
+
+
+footer {
+    clear: both;
+}
